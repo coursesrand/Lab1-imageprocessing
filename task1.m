@@ -1,7 +1,7 @@
 clf,clc, clear all;
 Fhat = zeros(128,128);
-p = 5;
-q = 9;
+p = 1;
+q = 20;
 Fhat(p,q) = 1;
 Fabsmax = max(abs(Fhat(:)));
 F = ifft2(Fhat);
